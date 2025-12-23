@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: "Source Sans 3", sans-serif;
+    font-size: 13px;
+    width: 375px;
+    background-color: #ededed;
+}
+
+.bold {
+    font-weight: 700px;
+}
+
+ul, .user, .social {
+    padding: 12px;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    padding-right: 20px;
+    margin: 0 0;
+    background-color: white;
+    list-style: none;
+}
+
+#logo{
+    width: 127px;
+    height: auto;
+}
+
+.post1 {
+    background: #fff;
+    margin-bottom: 25px;
+}
+
+.user{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    border-top: 1px solid #ededed;
+}
+
+.profile {
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+.align-right {
+    margin-left: auto;
+}
