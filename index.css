@@ -53,3 +53,50 @@ ul {
 .align-right {
     margin-left: auto;
 }
+
+.user p {
+    margin: 0 0;
+}
+
+.media{
+    width: 375px;
+    height: 375px;
+    background-image: url("images/post-vangogh.jpg");
+    background-size: cover;
+}
+
+.social{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+}
+
+.btn{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.btn button{
+    width: 24px;
+    height: 24px;
+    background-color: white;
+    border: none;
+    padding: 0 0;
+}
+
+.btn button:hover{
+    background-color: lightblue;
+    border-radius: 5px;
+}
+
+.btn button img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.social p {
+    margin: 6px 0;
+}

@@ -27,3 +27,14 @@ const posts = [
         likes: 152
     }
 ]
+
+const likesBtn = document.getElementById("likes");
+const likesEl = document.getElementById("likes-el");
+
+likesBtn.value=posts[0].likes;
+
+likesBtn.addEventListener("click", function() {
+    posts[0].likes += 1;
+    likesBtn.value=posts[0].likes;
+    likesEl.textContent = `${Number(likesBtn.value)} likes`
+});
